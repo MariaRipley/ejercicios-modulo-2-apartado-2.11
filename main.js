@@ -6,8 +6,7 @@ let array100 = [];
 
 function get100Numbers() {
    for (let i=1; i<101; i++ ){
-        // console.log(i);
-        let newLength = array100.push(i);
+        array100.push(i);
     };   
 }
 
